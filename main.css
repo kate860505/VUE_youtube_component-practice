@@ -35,8 +35,6 @@ main{
     display:flex;
     flex: 1;
 }
-
-
 #yt-menu{
     flex:0 0 24%;
     background-color: #aaa;
@@ -46,6 +44,34 @@ main{
     text-decoration:none;
 }
 #yt-content{
+    display: flex;
+    flex-wrap:wrap;
     flex:0 0 76%;
     background-color:#777;
 }
+#yt-content .conent-message{
+    flex:0 0 25%;
+    padding:15px;
+}
+#yt-content .pic img{
+    width: 100%;
+}
+#yt-content .Avatar img{
+    border-radius:50%;
+}
+#yt-content .message{
+    display: flex;
+    margin-top: 15px;
+}
+#yt-content .message .text{
+    margin-left: 20px;
+}
+#yt-content .message .text .title{
+    font-size: 15px;
+}
+#yt-content .message .text .subtitle{
+    font-size: 13px;
+    margin-top:7px;
+    color: #aaa;
+}
+
