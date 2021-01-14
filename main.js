@@ -13,7 +13,10 @@ app.component('yt-header',{
 app.component('yt-menu',{
     template:`
     <div id="yt-menu">
-        menu
+        <ul>
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">發燒影片</a></li>
+        </ul>
     </div>`,
 });
 app.component('yt-content',{

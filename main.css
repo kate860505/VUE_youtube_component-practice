@@ -6,7 +6,9 @@
 }
 #app{
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+
 }
 #yt-header{
     display:flex;
@@ -29,11 +31,19 @@
     width:200px;
     outline-style: none;
 }
+main{
+    display:flex;
+    flex: 1;
+}
 
 
 #yt-menu{
     flex:0 0 24%;
     background-color: #aaa;
+}
+#yt-menu li{
+    margin:10px 20px;
+    text-decoration:none;
 }
 #yt-content{
     flex:0 0 76%;
