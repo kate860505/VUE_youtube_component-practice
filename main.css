@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    box-sizing: border-box;
+}
+#app{
+    display:flex;
+    flex-wrap: wrap;
+}
+#yt-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex:0 0 100%;
+    background-color: #ccc;
+    padding:10px 20px;
+}
+#user-actions ul{
+    display: flex;
+}
+#user-actions a{
+    display: inline-block;
+    margin-left: 10px;
+    padding:5px;
+    text-decoration:none;
+}
+#search-bar input{
+    width:200px;
+    outline-style: none;
+}
+
+
+#yt-menu{
+    flex:0 0 24%;
+    background-color: #aaa;
+}
+#yt-content{
+    flex:0 0 76%;
+    background-color:#777;
+}
